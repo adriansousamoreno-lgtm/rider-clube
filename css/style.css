@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    background-color: rgb(8, 71, 8);
+    margin-bottom: 40px;
+}
+
+#cabecalho img {
+    width: 50px;
+}
+
+#cabecalho #menu ul {
+    display: flex;
+}
+
+#cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho #menu a {
+    color: azure;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    transition: all 0.5s linear;
+}
+
+#cabecalho #menu a:hover {
+    background-color: red;
+}
+
+#cabecalho #menu ul li {
+    list-style: none;
+    position: relative;
+}
+
+#cabecalho #menu ul li:hover .submenu {
+    display: block;
+}
+
+#cabecalho #menu .submenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: green;
+}
+
+#cabecalho #menu .submenu a {
+    border: #444 1px solid;
+    padding: 10px;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: orange;
+}
+
+.titulo-secao2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: red;
+}
+
+.historia img {
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+#main {
+    background-image: url(../images/Fundo2.jpg);
+}
+
+#p {
+    color: yellow;
+}
+
+.historia p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+#galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#poster {
+    width: 200px;
+}
+
+#img2 {
+    width: 350px;
+}
+
+#block p {
+    display: block;
+    text-align: right;
+
+}
+
+#rodape {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 50px;
+}
+ 
+
+
+
+
+
